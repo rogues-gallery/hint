@@ -4,7 +4,7 @@ import * as Octokit from '@octokit/rest';
 import * as throttling from '@octokit/plugin-throttling';
 
 import { Tag, Commit, Package, Author, GitHubAuth } from '../@types/custom';
-import { debug, execa } from './utils';
+import { debug, execa, execWithRetry } from './utils';
 
 const Client = Octokit.plugin(throttling);
 
@@ -174,7 +174,7 @@ const extractDataFromCommit = (sha: string): Promise<Commit> => {
 
     const command = `git show --no-patch --format=%B ${sha}`;
 
-    const commitInfoPromise = execa(command)
+    const commitInfoPromise = execWithRetry(command)
         .then(async ({ stdout }: { stdout: string }) => {
             const commitBodyLines = stdout.split('\n');
             const associatedIssues: string[] = [];
