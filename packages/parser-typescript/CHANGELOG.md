@@ -1,3 +1,22 @@
+# 1.0.6 (May 18, 2020)
+
+## Chores
+
+* [[`ea08bf5acc`](https://github.com/webhintio/hint/commit/ea08bf5acc5c18f221b06ef34e6dee7813d04a70)] - Upgrade: Bump ava from 3.5.2 to 3.8.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`a65fdf46c4`](https://github.com/webhintio/hint/commit/a65fdf46c4e9edb0c714ff0dad94e6da2f98d43b)] - Upgrade: Bump nyc from 15.0.0 to 15.0.1 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`bd9f407ebf`](https://github.com/webhintio/hint/commit/bd9f407ebf0f4037c06b8e5637b2d882efb580ac)] - Upgrade: Bump @types/node from 13.13.2 to 13.13.4 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`48b4b39eae`](https://github.com/webhintio/hint/commit/48b4b39eae240045e74b39ad7060e38c27bbf38f)] - Upgrade: Bump @types/node from 13.9.2 to 13.13.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+
+
+# 1.0.5 (April 15, 2020)
+
+## Chores
+
+* [[`75f93e4bc3`](https://github.com/webhintio/hint/commit/75f93e4bc34a7fae1bd62ca879587f13b89267b8)] - Upgrade: Bump @typescript-eslint/typescript-estree from 2.23.0 to 2.27.0 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`986279d560`](https://github.com/webhintio/hint/commit/986279d560adb6c905918d0d264401bc155bd7b2)] - Upgrade: Bump ava from 3.4.0 to 3.5.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`326c245db3`](https://github.com/webhintio/hint/commit/326c245db3047d8fb5f54695e8093beb04910f1b)] - Upgrade: Bump @types/node from 12.12.14 to 13.9.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+
+
 # 1.0.4 (March 18, 2020)
 
 ## Chores

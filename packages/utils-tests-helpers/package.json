@@ -1,15 +1,15 @@
 {
   "dependencies": {
-    "@hint/utils": "^7.0.2",
-    "@hint/utils-create-server": "^3.4.2",
-    "@hint/utils-fs": "^1.0.1",
-    "@hint/utils-network": "^1.0.2",
+    "@hint/utils": "^7.0.4",
+    "@hint/utils-create-server": "^3.4.4",
+    "@hint/utils-fs": "^1.0.3",
+    "@hint/utils-network": "^1.0.4",
     "@hint/utils-types": "^1.0.1",
-    "ava": "^3.5.2"
+    "ava": "^3.8.2"
   },
   "description": "hint tests helpers",
   "devDependencies": {
-    "@types/node": "^13.9.2",
+    "@types/node": "^13.13.4",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.12.0",
     "cpx": "^1.5.0",
@@ -61,5 +61,5 @@
     "watch": "npm run build && npm-run-all --parallel -c watch:*",
     "watch:ts": "npm run build:ts -- --watch"
   },
-  "version": "6.1.0"
+  "version": "6.1.2"
 }

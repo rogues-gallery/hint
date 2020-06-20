@@ -1,3 +1,25 @@
+# 7.0.4 (May 18, 2020)
+
+## Chores
+
+* [[`be1be57cbc`](https://github.com/webhintio/hint/commit/be1be57cbce8cefaf6671405f10bd6d97faece03)] - Upgrade: Bump is-wsl from 2.1.1 to 2.2.0 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`ea08bf5acc`](https://github.com/webhintio/hint/commit/ea08bf5acc5c18f221b06ef34e6dee7813d04a70)] - Upgrade: Bump ava from 3.5.2 to 3.8.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`33ffc36940`](https://github.com/webhintio/hint/commit/33ffc369409569f478ebfe277ed38a2022ac48a0)] - Upgrade: Bump npm-registry-fetch from 8.0.0 to 8.0.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`a65fdf46c4`](https://github.com/webhintio/hint/commit/a65fdf46c4e9edb0c714ff0dad94e6da2f98d43b)] - Upgrade: Bump nyc from 15.0.0 to 15.0.1 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`547cdf567c`](https://github.com/webhintio/hint/commit/547cdf567c2ae97d714d51bbf9a146b7b9e23741)] - Upgrade: Bump semver from 7.1.3 to 7.3.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`85c86a0891`](https://github.com/webhintio/hint/commit/85c86a0891c36423e5c76ca05acd5ab04e84a01c)] - Upgrade: Bump sinon from 9.0.1 to 9.0.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+
+
+# 7.0.3 (April 15, 2020)
+
+## Chores
+
+* [[`d2d7cc87a6`](https://github.com/webhintio/hint/commit/d2d7cc87a60a23d80ec8d46214c0c7732fe338a2)] - Upgrade: Bump configstore from 5.0.0 to 5.0.1 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`992f6cb1af`](https://github.com/webhintio/hint/commit/992f6cb1afbc3db3f732fc9172b2ed1f40623c48)] - Upgrade: Bump @types/mime-db from 1.27.0 to 1.27.1 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`986279d560`](https://github.com/webhintio/hint/commit/986279d560adb6c905918d0d264401bc155bd7b2)] - Upgrade: Bump ava from 3.4.0 to 3.5.2 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+* [[`c8bcf672c7`](https://github.com/webhintio/hint/commit/c8bcf672c7c99e5cf2602cdb308ae79f49f70b5b)] - Upgrade: Bump applicationinsights from 1.7.0 to 1.7.3 (by [`dependabot-preview[bot]`](https://github.com/apps/dependabot-preview)).
+
+
 # 7.0.2 (March 18, 2020)
 
 ## Chores

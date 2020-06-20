@@ -35,14 +35,51 @@ worker.addEventListener('message', (event) => {
         // Once ready, forward snapshot of the DOM (see @hint/utils-dom).
         worker.postMessage({ snapshot });
     } else if (event.data.results) {
-        // Process/display results.
+        // Process/display results (occurs multiple times).
     } else if (event.data.error) {
         // Log/handle fatal errors reported by the worker.
     }
 });
 ```
 
-Currently the set of hints provided by the worker cannot be configured.
+The worker contains a subset of hints suitable for running in a browser
+environment without direct access to the page. These hints can be
+disabled or configured using the same format as [.hintrc][hintrc]
+files. Just pass the object as `userConfig` when sending the
+configuration.
+
+```ts
+worker.postMessage({
+    config: {
+        resource: 'https://example.com',
+        userConfig: {
+            browserslist: 'defaults, not IE 11',
+            hints: {
+                'compat-api/css': ['error', {
+                    'ignore': ['border-radius', 'box-lines'],
+                }],
+                'css-prefix-order': 'off'
+            }
+        }
+    }
+});
+```
+
+All included hints are enabled by default. To disable all included
+hints and selectively enable only a few, change the default severity.
+
+```ts
+worker.postMessage({
+    config: {
+        defaultHintSeverity: 'off',
+        userConfig: {
+            hints: {
+                'button-type': 'default'
+            }
+        }
+    }
+});
+```
 
 ## Contributing to the worker
 
@@ -52,3 +89,4 @@ file of the package.
 <!-- Link labels -->
 
 [contributing]: https://github.com/webhintio/hint/blob/master/packages/utils-worker/CONTRIBUTING.md
+[hintrc]: https://webhint.io/docs/user-guide/configuring-webhint/summary/
